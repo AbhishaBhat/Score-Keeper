@@ -15,7 +15,9 @@ p1b.addEventListener("click",function(){
     
     if(p1s===winScore)
     {
+        alert("Winner is player1");
         isOver=true;
+        
         p1sDisplay.classList.add("winner");
         p2sDisplay.classList.add("loser");
     }
@@ -31,6 +33,7 @@ p2b.addEventListener("click",function(){
     
     if(p2s===winScore)
     {
+        alert("Winner is player2");
         isOver=true;
          p2sDisplay.classList.add("winner");
         p1sDisplay.classList.add("loser");
@@ -58,3 +61,4 @@ function resetGame() {
     p2sDisplay.classList.remove("winner", "loser");
 
 }
+
