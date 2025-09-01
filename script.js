@@ -56,4 +56,5 @@ function resetGame() {
     p2sDisplay.textContent=p2s;
     p1sDisplay.classList.remove("winner", "loser");
     p2sDisplay.classList.remove("winner", "loser");
+
 }
